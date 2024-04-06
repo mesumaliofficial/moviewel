@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieWel</title>
+
+    <!--------------------------------  Link  to  css  ------------------------------------>
+    <link rel="stylesheet" href="Css/style.css">
+
+    <!-------------------------  Link  to Swiper  css  ------------------------------------>
+
+    <link rel="stylesheet" href="Css/swiper-bundle.min.css">
+
+    <!--------------------------------  Fav Icon  ------------------------------------>
+
+    <link rel="shortcut icon" href="img/fav-icon.png" type="img/x-icon">
+
+    <!--------------------------------  Box Icon  ------------------------------------>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
+
+</head>
+
+<body>
+
+    <!--------------------------------  Begin Header  ------------------------------------>
+
+    <header>
+        <!----------  Begin Nav  ---------->
+        <div class="nav container">
+
+            <!--------------  Logo ----------------->
+            <a href="index.html" class="logo">
+                movie<span>wel</span>
+            </a>
+            <!--------- Serach bar ----------->
+            <div class="search-box">
+                <input type="search" name="" id="serach-input" placeholder="Search movie">
+                <i class='bx bx-search'></i>
+            </div>
+            <!--------------  User ----------------->
+            <!-- <a href="#" class="user">
+        <img src="img/user.jpg" alt="" class="user-img">
+    </a> -->
+            <!-- <a href="" class="next-btn" style="margin-right: 5px;">Sign Up</a>
+    <a href="" class="next-btn">Login</a> -->
+            <!--------- NavBar --------------->
+
+            <div class="navbar">
+                <a href="index.html" class="nav-link nav-active">
+                    <i class='bx bx-home'></i>
+                    <span class="nav-link-tittle">Home</span>
+                </a>
+
+                <a href="#popular" class="nav-link">
+                    <i class='bx bxs-hot'></i>
+                    <span class="nav-link-tittle">Trending</span>
+                </a>
+
+                <a href="#movies" class="nav-link">
+                    <i class='bx bx-tv'></i>
+                    <span class="nav-link-tittle">TV Serials</span>
+                </a>
+
+                <a href="uc center.html" class="nav-link">
+                    <i style="font-size: 23px;" class="fa-regular fa-gamepad-modern"></i>
+                    <span class="nav-link-tittle">Uc Center</span>
+                </a>
+
+                <a href="#" class="nav-link">
+                    <i class='bx bx-phone'></i>
+                    <span class="nav-link-tittle">Contact</span>
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+    <!------ Home Section ------>
+    <section class="home container" id="home">
+        <!---- Home Image ---->
+        <img src="img/home-background.png" alt="" class="home-img">
+        <!-- Home Text -->
+        <div class="home-text">
+            <h1 class="me">Hitman's Wife's<br> Bodyguard</h1>
+            <p>Release 14 jun 2021</p>
+            <a href="play-page/Jumanji.mp4" class="watch-btn">
+                <!-- <i class='bx bx-right-arrow'></i> -->
+                <!-- <span>Watch the Trailor</span> -->
+            </a>
+        </div>
+    </section>
+    <!-------- Home End ---------->
+
+    <!-------- Popular Section Start ---------->
+
+    <section class="popular container" id="popular">
+        <!-- Heading -->
+        <div class="heading">
+            <h2 class="heading-tittle">New Movies</h2>
+
+            <!-- Swiper Buttons -->
+            <div class="swiper-btn">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        <!-- Content -->
+        <div class="popular-content swiper">
+            <div class="swiper-wrapper">
+
+                <!-- Movies Box 1 -->
+
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-1.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title" style="font-size: 1.1rem; font-weight: 500;">Spider-man No Way Home
+                            </h2>
+                            <span class="movie-type">Action</span>
+                            <a href="spiderman.html" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movies Box 2 -->
+
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="play-page/Men.in.Black..International-15605799242363.jpg" alt=""
+                            class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title" style="font-size: 1.1rem; font-weight: 500;">Men In Black </h2>
+                            <span class="movie-type">Action/Adventure</span>
+                            <a href="men in black 1.html" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movies Box 3 -->
+
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/Shazam.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title" style="font-size: 1.1rem; font-weight: 500;">Shazam</h2>
+                            <span class="movie-type">Action</span>
+                            <a href="Shazam Play.html" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movies Box 4 -->
+
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/Mighty.Morphin.Power.Rangers..Once...Always-16819738566770.jpg" alt=""
+                            class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title" style="font-size: 1.1rem; font-weight: 500;">Mighty Morphin Power
+                                Rangers Once Always</h2>
+                            <span class="movie-type">Drama</span>
+                            <a href="power rangers.html" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movies Box 5 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/movie-3.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title" style="font-size: 1.1rem; font-weight: 500;">Shang-Chi And The
+                                Legend Of The Ten Rings</h2>
+                            <span class="movie-type">Action</span>
+                            <a href="Shang.html" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movies Box 6 -->
+
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/movie-2.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title" style="font-size: 1.1rem; font-weight: 500;">Hitman's Wife's
+                                Bodyguard</h2>
+                            <span class="movie-type">Action</span>
+                            <a href="Hitman.html" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movies Box 7 -->
+
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="play-page/MenInBlack(3).jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title" style="font-size: 1.1rem; font-weight: 500;">Men In Black-3</h2>
+                            <span class="movie-type">Action</span>
+                            <a href="men in black 3.html" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movies Box 8 -->
+
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-8.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title" style="font-size: 1.1rem; font-weight: 500;">Men in Black
+                                International</h2>
+                            <span class="movie-type">Action</span>
+                            <a href="men in black 4.html" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------- Popular Section End ---------->
+
+    <!-------- Movies Section Start ---------->
+
+    <section class="movies container" id="movies">
+        <!-- Heading -->
+        <div class="heading">
+            <h2 class="heading-tittle">Movies And Shows</h2>
+        </div>
+        <!-- Movies Content -->
+        <div class="movies-content">
+            <!-- Movies Box 1 -->
+            <div class="movie-box">
+                <img src="img/movie-1.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title" style="font-size: 1.1rem; font-weight: 500;">Jumanji: Welcome to the Jungle
+                    </h2>
+                    <span class="movie-type">Action</span>
+                    <a href="Play-page.html" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Movies Box 2 -->
+            <div class="movie-box">
+                <img src="img/movie-2.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title" style="font-size: 1.1rem; font-weight: 500;">Hitman's Wife's Bodyguard</h2>
+                    <span class="movie-type">Action</span>
+                    <a href="Hitman.html" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Movies Box 3 -->
+            <div class="movie-box">
+                <img src="img/movie-3.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title" style="font-size: 1.1rem; font-weight: 500;">Shang-Chi And The Legend Of
+                        The<br> Ten Rings</h2>
+                    <span class="movie-type">Action</span>
+                    <a href="Shang.html" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Movies Box 4 -->
+            <div class="movie-box">
+                <img src="img/Shazam.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title" style="font-size: 1.1rem; font-weight: 500;">Shazam The Fury of God</h2>
+                    <span class="movie-type">Action/dub/hindi</span>
+                    <a href="Shazam Play.html" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Movies Box 5 -->
+            <div class="movie-box">
+                <img src="img/Mighty.Morphin.Power.Rangers..Once...Always-16819738566770.jpg" alt=""
+                    class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title" style="font-size: 1.1rem; font-weight: 500;">Mighty Morphin Power Rangers
+                        Once Always</h2>
+                    <span class="movie-type">Drama</span>
+                    <a href="power rangers.html" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Movies Box 6 -->
+            <div class="movie-box">
+                <img src="img/popular-movie-1.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title" style="font-size: 1.1rem; font-weight: 500;">Spider-man No Way Home</h2>
+                    <span class="movie-type">Action/Entertainment</span>
+                    <a href="spiderman.html" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Movies Box 7 -->
+            <div class="movie-box">
+                <img src="play-page/MenInBlack(3).jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title" style="font-size: 1.1rem; font-weight: 500;">Men In Black-3</h2>
+                    <span class="movie-type">Action/Sci-Fi</span>
+                    <a href="men in black 3.html" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Movies Box 8 -->
+            <div class="movie-box">
+                <img src="play-page/Men.in.Black..International-15605799242363.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title" style="font-size: 1.1rem; font-weight: 500;">Men in Black International</h2>
+                    <span class="movie-type">Action/Entertainment</span>
+                    <a href="men in black 4.html" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-------- Movies Section End ---------->
+
+    <!-------- Next Page ---------->
+    <div class="next-page">
+        <a href="#" class="next-btn">Next Page</a>
+    </div>
+
+    <!-------- Copyright ---------->
+    <div class="copyright">
+        <p>Mesum Ali 2022 &#169; All Right Reserved</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!---------------------------  Link to Swiper Js  ----------------------------->
+
+    <script src="Js/swiper-bundle.min.js"></script>
+
+    <!--------------------------------  Link to Js  ------------------------------------>
+    <script src="Js/script.js"></script>
+
+
+</body>
+
+</html>
